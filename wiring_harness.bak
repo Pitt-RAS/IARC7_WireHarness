@@ -92,9 +92,9 @@ Wire Notes Line
 Text Notes 2400 1150 0    60   ~ 0
 FC\n
 Wire Wire Line
-	2525 1500 2525 2675
+	2525 1500 2525 3000
 Wire Wire Line
-	2525 2675 2075 2675
+	2075 2675 2825 2675
 $Comp
 L GND #PWR?
 U 1 1 591CD3B0
@@ -252,7 +252,7 @@ Wire Wire Line
 Connection ~ 2625 1525
 Connection ~ 2625 1625
 Wire Wire Line
-	2525 1500 2625 1500
+	2125 1500 2625 1500
 Connection ~ 2625 1500
 Wire Notes Line
 	2950 2350 2950 1875
@@ -262,4 +262,41 @@ Wire Notes Line
 	2700 1875 2700 1700
 Text Notes 3000 1975 0    30   ~ 0
 5V tap to KS?\n
+Wire Notes Line
+	2825 2575 2825 2775
+Wire Notes Line
+	2825 2775 3375 2775
+Wire Notes Line
+	3375 2775 3375 2575
+Wire Notes Line
+	3375 2575 2825 2575
+Wire Wire Line
+	2450 2350 2450 2600
+Wire Wire Line
+	2450 2600 2825 2600
+Connection ~ 2450 2350
+Connection ~ 2525 2675
+Text Notes 2975 2700 0    30   ~ 0
+Jetson\n
+Text Notes 2675 2575 0    30   ~ 0
+11.1V\n
+Wire Wire Line
+	2675 2600 2675 2925
+Wire Wire Line
+	2675 2925 2825 2925
+Connection ~ 2675 2600
+Wire Wire Line
+	2525 3000 2825 3000
+Wire Notes Line
+	2825 2850 2825 3075
+Wire Notes Line
+	2825 3075 3325 3075
+Wire Notes Line
+	3325 3075 3325 2850
+Wire Notes Line
+	3325 2850 2825 2850
+Text Notes 2975 3000 0    30   ~ 0
+LED\n
+Text Notes 2675 2900 0    30   ~ 0
+11.7V\n
 $EndSCHEMATC
